@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/splash"
+    tools:context="com.beautiful.soundss.poetryeditor.Activities.PoetryPhotoEditorActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/backlanguage"
+                    android:layout_width="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="start"
+                    android:background="@drawable/ic_arrow_back_black_24dp"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:text="Poetry Photo Editor"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/customTextID"
+            android:text="@string/custom_text"
+            android:textSize="18sp"
+            android:elevation="12dp"
+            android:layout_marginTop="30dp"
+            android:theme="@style/MyButton"
+            android:drawableRight="@drawable/ic_text_paper"
+            android:padding="5dp"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:drawableEnd="@drawable/ic_text_paper" />
+
+        <Button
+            android:id="@+id/choosePoetryID"
+            android:layout_marginTop="15dp"
+            android:text="@string/choose_poetry"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:elevation="12dp"
+            android:theme="@style/MyButton"
+            android:drawableRight="@drawable/ic_poetry_pic"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:drawableEnd="@drawable/ic_poetry_pic" />
+
+        <Button
+            android:id="@+id/blendImagesID"
+            android:layout_marginTop="15dp"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:elevation="12dp"
+            android:theme="@style/MyButton"
+            android:drawableEnd="@drawable/ic_more_than_images"
+            android:drawableRight="@drawable/ic_more_than_images"
+            android:padding="9dp"
+            android:text="@string/blend_images"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/urduKeyBoardLinkID"
+            android:layout_marginTop="15dp"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:elevation="12dp"
+            android:theme="@style/MyButton"
+            android:drawableEnd="@drawable/ic_keyboard"
+            android:drawableRight="@drawable/ic_keyboard"
+            android:padding="9dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/urdu_keyboard"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

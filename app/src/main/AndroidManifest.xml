@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beautiful.soundss.poetryeditor">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/main_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.PoetryPhotoEditorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ChoosePoetryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.BlendImagesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.soundcloud.android.crop.CropImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.CropImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.BlendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.BlendImagesInternalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.DownloadShareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.CropActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.BackgroundImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.PoetryBlendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.CustomBackgroundPoetryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.GalleryPoetryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.PoetryChooseFragmentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.CustomKeyboardActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activities.CreationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.FullCreationPictureActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
