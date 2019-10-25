@@ -20,11 +20,6 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * Created by ArslanNasr on 7/6/2018.
- */
-
 public class BackgroundRecyclerViewAdapter extends RecyclerView.Adapter<BackgroundRecyclerViewAdapter.ViewHolder> {
 
     private LayoutInflater inflater;

@@ -24,11 +24,6 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 
 import java.util.List;
-
-/**
- * Created by ArslanNasr on 7/6/2018.
- */
-
 public class PoetryRecyclerViewAdapter extends RecyclerView.Adapter<PoetryRecyclerViewAdapter.ViewHolder> {
 
     private LayoutInflater inflater;

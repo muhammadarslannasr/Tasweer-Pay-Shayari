@@ -22,11 +22,6 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * Created by ArslanNasr on 7/6/2018.
- */
-
 public class BlendImagesRecyclerViewAdapter extends RecyclerView.Adapter<BlendImagesRecyclerViewAdapter.ViewHolder> {
 
     private LayoutInflater inflater;

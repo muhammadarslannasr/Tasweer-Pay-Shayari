@@ -15,10 +15,6 @@ import com.beautiful.soundss.poetryeditor.R;
 
 import java.util.List;
 
-/**
- * Created by ArslanNasr on 10/16/2018.
- */
-
 public class HorizontalAdapter extends RecyclerView.Adapter<HorizontalAdapter.MyViewHolder> {
 
     List<Colors> colorsList;

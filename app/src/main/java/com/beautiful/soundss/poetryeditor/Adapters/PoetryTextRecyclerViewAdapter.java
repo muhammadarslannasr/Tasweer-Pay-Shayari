@@ -16,11 +16,6 @@ import com.beautiful.soundss.poetryeditor.Model.Poetry;
 import com.beautiful.soundss.poetryeditor.R;
 
 import java.util.List;
-
-/**
- * Created by ArslanNasr on 7/6/2018.
- */
-
 public class PoetryTextRecyclerViewAdapter extends RecyclerView.Adapter<PoetryTextRecyclerViewAdapter.ViewHolder> {
 
     private LayoutInflater inflater;
@@ -72,14 +67,8 @@ public class PoetryTextRecyclerViewAdapter extends RecyclerView.Adapter<PoetryTe
 
                     int pos = getAdapterPosition();
                     Poetry poetry = poetryList.get(pos);
-//                    Intent intent = new Intent(context, PoetryBlendActivity.class);
-//                    intent.putExtra("poetry_text",poetry.getPoetry());
-//                    context.startActivity(intent);
-//                    ((Activity)context).finish();
-
                     Intent intent = new Intent();
                     intent.putExtra("poetry_text",poetry.getPoetry());
-                    //context.startActivity(intent);
                     ((Activity)context).setResult(Activity.RESULT_OK,intent);
                     ((Activity)context).finish();
                 }

@@ -19,11 +19,6 @@ import com.beautiful.soundss.poetryeditor.R;
 import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
-
-/**
- * Created by ArslanNasr on 7/6/2018.
- */
-
 public class BlendImagesInternalRecyclerViewAdapter extends RecyclerView.Adapter<BlendImagesInternalRecyclerViewAdapter.ViewHolder> {
 
     private LayoutInflater inflater;

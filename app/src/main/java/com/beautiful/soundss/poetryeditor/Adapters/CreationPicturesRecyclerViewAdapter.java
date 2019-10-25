@@ -30,10 +30,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by ArslanNasr on 7/6/2018.
- */
-
 public class CreationPicturesRecyclerViewAdapter extends RecyclerView.Adapter<CreationPicturesRecyclerViewAdapter.ViewHolder> {
 
     private LayoutInflater inflater;
